@@ -70,7 +70,7 @@ if Tgui == "help":
 elif Tgui == '1':
 	print
 	print
-	os.system("bash /sdcard/arm.sh")
+	os.system("bash $HOME/Termux-Gui/arm.sh")
 	os.system("clear")
 	os.system("echo")
 	os.system("echo")
@@ -99,7 +99,7 @@ elif Tgui == '1':
 elif Tgui == '2' or  Tgui == '02':
 	print
 	print
-	os.system("bash /sdcard/aarch64.sh")
+	os.system("bash $HOME/Termux-Gui/aarch64.sh")
 	os.system("clear")
 	os.system("echo")
 	os.system("echo")
